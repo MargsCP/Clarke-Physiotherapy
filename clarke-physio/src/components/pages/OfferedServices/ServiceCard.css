@@ -1,0 +1,36 @@
+.card {
+    width: 250px;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* background-color: #f2f2f2; */
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: transform 0.7s ease;
+    transition: 0.7s;
+    
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 16px;
+    color: "black";
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .hovered {
+    
+    color: "black";
+  }
+  
+  .image-container{
+    width: 100%
+  }

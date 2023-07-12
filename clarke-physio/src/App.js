@@ -1,13 +1,50 @@
-import logo from './logo.svg';
+
 import './App.css';
+import OfferedServices from './components/pages/OfferedServices/OfferedServices';
+import About from './components/pages/About';
+import Home from './components/pages/Home';
+import NavBar from './components/common/NavBar';
+import Footer from './components/common/Footer.js';
+
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
 
 function App() {
   return (
-    <div>
-      
+    <>
+    <BrowserRouter>
+    <NavBar/>
+      <Routes>
+        <Route
+        path="/services"
+        element={<OfferedServices/>}>
 
-    </div>
+        </Route>
+
+        <Route
+        path="/about"
+        element={<About/>}>
+
+        </Route>
+
+        <Route
+        path="/"
+        element={<Home/>}>
+
+        </Route>
+      </Routes>
+    <Footer/>
+    </BrowserRouter>
+          </>
+    
   );
 }
 
 export default App;
+
