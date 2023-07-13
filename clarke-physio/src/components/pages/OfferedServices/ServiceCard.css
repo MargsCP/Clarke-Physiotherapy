@@ -1,11 +1,12 @@
-.card {
+/* .card {
     width: 250px;
     height: 100%;
     margin-left: 5px;
     margin-right: 5px;
-    /* background-color: #f2f2f2; */
+    background-color: #f2f2f2;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 15px;
+    border-width: 3px;
     transition: transform 0.7s ease;
     transition: 0.7s;
     
@@ -33,4 +34,4 @@
   
   .image-container{
     width: 100%
-  }
+  } */

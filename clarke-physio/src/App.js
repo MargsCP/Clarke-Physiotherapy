@@ -2,7 +2,7 @@
 import './App.css';
 import OfferedServices from './components/pages/OfferedServices/OfferedServices';
 import About from './components/pages/About';
-import Home from './components/pages/Home';
+import Home from './components/pages/Home/Home';
 import NavBar from './components/common/NavBar';
 import Footer from './components/common/Footer.js';
 
