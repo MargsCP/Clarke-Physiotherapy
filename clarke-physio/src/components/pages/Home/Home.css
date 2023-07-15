@@ -21,7 +21,7 @@
     height: 100%;
     transform-style: preserve-3d;
     transition: all 1s ease;
-    
+    cursor: pointer;
     
 }
 
@@ -40,7 +40,7 @@ transform: rotateY(180deg)
     height: 100%;
     backface-visibility: hidden;
     background: #9DC183;
-    color: white;
+    color: black;
     border: solid 3px black;
     border-radius: 8px;
     
