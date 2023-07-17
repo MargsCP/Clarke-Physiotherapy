@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './ServiceCard'
-import { dryNeedling, massages, servicesArray } from './Service'
+import {  servicesArray } from '../../../models/Service'
 
 
 
