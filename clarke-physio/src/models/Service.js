@@ -41,7 +41,7 @@ const advice = new Service(
 const manualTherapy= new Service(
     "Manual Therapy", 
     "Hands-on techniques such as joint mobilizations, soft tissue manipulation, and stretching to alleviate pain, improve joint mobility, and promote tissue healing. Manual therapy can effectively address musculoskeletal conditions and enhance overall movement",
-    "https://www.physio4u.net/wp-content/uploads/2017/01/9.jpg")
+    "https://static.s4be.cochrane.org/app/uploads/2014/02/manual-therapy.jpg")
 
 const strapping= new Service(
     "Strapping", 

@@ -16,7 +16,7 @@ export default function HomeCard (props){
     className = {`theCard ${flipped ? ('isFlipped') : ('')}`}>
          
         <div className="theFront" style={{backgroundImage: `url( ${props.service.image})`, backgroundSize: "cover", backgroundPosition: "center", opacity: 0.75,}}>
-            <h3 style={{ textAlign: "center", justifyContent: "center", alignItems: "center", fontWeight: "bold", fontFamily: 'Prompt', marginTop: 25}}>{props.service.name}</h3>
+            <h3 style={{ textAlign: "center", justifyContent: "center", alignItems: "center", fontWeight: "bold", fontFamily: 'Prompt', marginTop: 25, opacity: 1}}>{props.service.name}</h3>
           
         </div>
         <div className="theBack" style={{objectFit: "cover"}} > 
