@@ -18,6 +18,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
+
+        {/* hex codes:
+         #F3F1EC - beige-ish photos
+         #C3C4BE - gray-sh color for Hi Im Margie
+         #AD998A - brown color at the bottom
+         #8F928B - gray to be made lighter  */}
     <BrowserRouter>
     <NavBar/>
       <Routes>
