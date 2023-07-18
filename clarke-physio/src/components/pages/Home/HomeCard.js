@@ -21,7 +21,7 @@ export default function HomeCard (props){
       height= "100%"
       alt= "dryNeedling"
       position= "absolute"
-      style={{opacity: .45, objectFit: "cover",background: "white"}}/>
+      style={{opacity: .65, objectFit: "cover",background: "white"}}/>
               <h3 style={{position: "absolute",top: 0, textAlign: "center", fontFamily: 'Abhaya Libre', marginTop: "15%", color: "white ", fontSize: 45, opacity: 1, width: "100%", alignItems: "center"}}>{props.service.name}</h3>
             
           
