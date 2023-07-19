@@ -4,11 +4,17 @@
   position: relative;
 }
 
-#services {
-  color: #623e29;
-  font-family: "Abhaya Libre";
-  font-size: 45px;
-}
+  #services {
+    color: #623e29;
+    font-family: "Abhaya Libre";
+  }
+
+  #about-me-img {
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+  }
+
 
 #about-me-img {
   border-radius: 5px;
@@ -145,7 +151,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1290px) {
   .title-holder {
     color: white;
     font-size: 90px;
