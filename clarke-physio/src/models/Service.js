@@ -1,9 +1,9 @@
 import dryNeedlingImage from "../images/DryNeedling.jpeg"
 import massageImage from "../images/SportsMassages.jpeg"
-import movementImage from "../images/MovementAssessment.jpeg"
-import rehabImage from "../images/Rehab.jpeg"
-import therapyImage from "../images/Therapy.jpeg"
+import rehabImage from "../images/MovementAssessment.jpeg"
+import assessmentImage from "../images/Therapy.jpeg"
 import strappingImage from "../images/Strapping.jpeg"
+import newTherapyImage from "../images/newTherapy.jpeg" 
 class Service{
     constructor(name, description, image){
         this.name = name;
@@ -34,7 +34,7 @@ const massages = new Service(
 const assessments = new Service(
     "Movement Assessment", 
     "A comprehensive evaluation of your body's movement patterns, assessing flexibility, strength, and posture. This assessment helps us identify areas of dysfunction or imbalance and tailor treatment plans accordingly.",
-    `${movementImage}`)
+    `${assessmentImage}`)
 const rehab = new Service(
     "Rehabilitation", 
     "Tailored rehabilitation programs focus on restoring function, strength, and mobility. Focused specific exercise plan with an injury or before or after surgery. ",
@@ -47,7 +47,7 @@ const rehab = new Service(
 const manualTherapy= new Service(
     "Manual Therapy", 
     "Hands-on techniques such as joint mobilizations, soft tissue manipulation, and stretching to alleviate pain, improve joint mobility, and promote tissue healing. Manual therapy can effectively address musculoskeletal conditions and enhance overall movement",
-    `${therapyImage}`)
+    `${newTherapyImage}`)
 
 const strapping= new Service(
     "Strapping", 
